@@ -1,0 +1,8 @@
+<h2>listar pokemon works!</h2>
+
+<ul *ngIf="pokemons">
+    <li *ngFor="let pokemon of pokemons;">
+        {{pokemon.name}} - {{pokemon.url}}
+    </li>
+
+</ul>
